@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Flat:</h1>
+
+  <div class="d-flex align-items-center space-between">
+    <h2><%= @flat['name'] %></h2>
+    <h2><%= @flat['price'] %> - <%= @flat['priceCurrency'] %></h2>
+  </div>
+
+
+  <%= image_tag @flat['imageUrl'], alt: @flat['name'], class: 'flat-image' %>
+</div>
+

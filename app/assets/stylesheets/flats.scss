@@ -1,0 +1,25 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.flat-image{
+  width: 450px;
+  border-radius: 4px;
+}
